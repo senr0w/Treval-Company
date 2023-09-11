@@ -18,7 +18,7 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
- 
+    align-items: center;
   }
 }
 .img{
@@ -227,6 +227,7 @@ margin-top: 20px;
     position: absolute;
     z-index: 0;
     top: 1417px;
+    left: 0;
 }
 .ourstory{
     display: flex;
@@ -316,14 +317,14 @@ color: #939597;
     justify-content: center;
     align-items: center;
 }
+
 .FindArrow{
     display: flex;
-    justify-content: space-between;
     margin-top: 260px;
+    justify-content: space-between;
     width: 1544px;
 }
 .Find{
-
     font-size: 56px;
     font-weight: 600;
     line-height: 66px;
@@ -332,4 +333,98 @@ color: #939597;
     display: flex;
     justify-content: space-evenly;
     width: 120px;
+}
+.Cont-TourCard{
+    display: flex;
+    margin-top: 40px;
+    width: 1544px;
+}
+.TourCard{
+    display: flex;
+    flex-direction: column;
+    width:  362px;
+    height: 450px;
+    padding: 16px;
+    // border-radius: 4px;
+    gap: 16px;
+}
+.img-card{
+    width: 330px;
+    height: 252px;
+    border-radius: 16px;
+
+}
+.TourText-Block{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 86px;
+    gap: 14px;
+}
+.TourText-One{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.TourText-Two{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.TourText-Three{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5B5F62;
+}
+.BuyTour{
+    display: flex;
+    width: 330px;
+    height: 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+.span{
+    color: #5B5F62;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.p{
+    color: #2D3134;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.ButtonBuy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 142px;
+    height: 48px;
+    border-radius: 40px;
+    border: 1px solid  #80A5B3;
+    gap: 8px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #80A5B3;
 }

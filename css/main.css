@@ -348,7 +348,8 @@ span {
 
 .FindArrow {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 260px;
 }
 
 .Find {

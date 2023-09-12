@@ -468,4 +468,107 @@ span {
   letter-spacing: 0em;
   text-align: center;
   color: #80A5B3;
+}
+
+.Cont-TopDestin {
+  margin-top: 112px;
+  width: 772px;
+  height: 178px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.TextTop-One {
+  font-family: Inter;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: 0em;
+}
+
+.TextTop-Two {
+  width: 619px;
+  color: #5B5F62;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.Cont-ButtonsTop {
+  width: 772px;
+  height: 36px;
+  gap: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Button_Top {
+  width: 59px;
+  height: 36px;
+  border-radius: 24px;
+  border: 1px solid #80A5B3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.Button_TopTwo {
+  width: 136px;
+  height: 36px;
+  border-radius: 24px;
+  border: 1px solid #80A5B3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.Button_TopThree {
+  width: 98px;
+  height: 36px;
+  border-radius: 24px;
+  border: 1px solid #80A5B3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.Button_TopFour {
+  width: 88px;
+  height: 36px;
+  border-radius: 24px;
+  border: 1px solid #80A5B3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  background-color: #80A5B3;
+}
+
+.Button_TopFive {
+  width: 80px;
+  height: 36px;
+  border-radius: 24px;
+  border: 1px solid #80A5B3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
 }/*# sourceMappingURL=main.css.map */

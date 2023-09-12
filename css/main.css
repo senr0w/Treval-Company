@@ -214,6 +214,7 @@ span {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 1780px;
 }
 
 .block {
@@ -571,4 +572,149 @@ span {
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+}
+
+.Cont-Nepal {
+  margin-top: 40px;
+  height: 524px;
+  width: 1520px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-nepal_1 {
+  width: 405px;
+  height: 250px;
+  background-image: url(/image/nepal\ 1.png);
+}
+.img-nepal_2 {
+  width: 405px;
+  height: 250px;
+  background-image: url(/image/nepal\ 2.png);
+}
+.img-nepal_3 {
+  width: 448px;
+  height: 524px;
+  background-image: url(/image/nepal\ 3.png);
+}
+.img-nepal_4 {
+  width: 619px;
+  height: 250px;
+  background-image: url(/image/nepal\ 4.png);
+}
+.img-nepal_5 {
+  width: 308px;
+  height: 250px;
+  background-image: url(/image/nepal\ 5.png);
+}
+.img-nepal_6 {
+  width: 287px;
+  height: 250px;
+  background-image: url(/image/nepal\ 6.png);
+}
+
+.NepalText {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #ffffff;
+  margin-left: 24px;
+  margin-top: 182px;
+}
+.NepalText_2 {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: 24px;
+  margin-top: 8px;
+}
+.NepalText_3 {
+  margin-top: 458px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  margin-left: 24px;
+}
+
+.BlockNepal-ImgOne {
+  width: 405px;
+  height: 524px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.BlockNepal-ImgTwo {
+  width: 619px;
+  height: 524px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.BlockNepal-ImgThree {
+  display: flex;
+  justify-content: space-between;
+  width: 619px;
+  height: 250px;
+}
+
+.Cont-Testi {
+  margin-top: 112px;
+  height: 114px;
+  width: 1520px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TestiBlock {
+  width: 616px;
+  height: 114px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.TestiText_1 {
+  color: #80A5B3;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 100% */
+  letter-spacing: 4px;
+}
+
+.TestiText_2 {
+  color: #2D3134;
+  font-family: Volkhov;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.Button_Testi {
+  width: 79px;
+  height: 48px;
+  border-radius: 4px;
+  gap: 4px;
+  background-color: #80A5B3;
+  color: #F8FDFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
